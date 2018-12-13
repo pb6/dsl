@@ -1,5 +1,5 @@
 job('test') {
   steps {
-    sh "echo ${SECRET}"
+    shell "echo ${SECRET}"
   }
 }
